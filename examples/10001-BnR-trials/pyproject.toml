@@ -1,0 +1,19 @@
+[project]
+name = "10001-bnr-trials"
+version = "0.1.0"
+description = "Trials on extracting product catalogues and product details from B&R website."
+authors = [
+    {name = "amtyagiji+ioc.research",email = "amtyagiji+ioc.research@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13 <4.0"
+license = "MIT"
+dependencies = [
+    "browser-use (>=0.7.5,<0.8.0)",
+    "playwright (>=1.55.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

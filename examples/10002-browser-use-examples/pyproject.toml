@@ -1,0 +1,23 @@
+[project]
+name = "10002-browser-use-examples"
+version = "0.1.0"
+description = "My practice on browser-use browser automation and open-source api like openai, groq, etc."
+authors = [
+    {name = "amtyagiji+ioc.research",email = "amtyagiji+ioc.research@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "playwright (>=1.55.0,<2.0.0)",
+    "browser-use (>=0.7.1,<0.8.0)",
+    "groq (>=0.31.0,<0.32.0)",
+    "asyncio (>=4.0.0,<5.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "10002_browser_use_examples", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

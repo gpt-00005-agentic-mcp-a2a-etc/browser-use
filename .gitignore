@@ -20,6 +20,9 @@ venv/
 # Build files
 dist/
 
+#Temp files
+# 10002-*/
+
 # Data files
 *.gif
 *.txt
